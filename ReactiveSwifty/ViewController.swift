@@ -16,10 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let _ = textField.reactive.continuousTextValues.map {
-            $0?.characters.count
+        textField.reactive.continuousTextValues.map { $0 }.observeResult { (result) in
+            let letter = result.value ?? nil
+            print(letter ?? "Default value failed")
         }
-        
     }
 }
 
