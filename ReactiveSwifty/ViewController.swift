@@ -12,14 +12,23 @@ import ReactiveCocoa
 class ViewController: UIViewController {
 
     @IBOutlet weak var textField: UITextField!
+    @IBOutlet var textLabel: UILabel!
+    
+    let dataModel = DataModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureState()
         
         textField.reactive.continuousTextValues.map { $0 }.observeResult { (result) in
             let letter = result.value ?? nil
             print(letter ?? "Default value failed")
         }
+    }
+    
+    private func configureState() {
+        textLabel.reactive.text <~ dataModel.text
     }
 }
 

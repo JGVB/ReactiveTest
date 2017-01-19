@@ -28,16 +28,26 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIY-eW-IdT">
+                                <rect key="frame" x="26" y="271" width="323" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BCy-Ih-DqW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Lhs-Yz-sUB"/>
+                            <constraint firstItem="BCy-Ih-DqW" firstAttribute="top" secondItem="WIY-eW-IdT" secondAttribute="bottom" constant="26.5" id="Ts5-Gx-omA"/>
+                            <constraint firstItem="WIY-eW-IdT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="YHP-Fw-vOF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WIY-eW-IdT" secondAttribute="trailing" constant="10" id="b5C-bu-4ls"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BCy-Ih-DqW" secondAttribute="trailing" constant="30" id="kWK-df-rEf"/>
                             <constraint firstItem="BCy-Ih-DqW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xJF-YJ-vQT"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="textField" destination="BCy-Ih-DqW" id="qdu-zL-E2m"/>
+                        <outlet property="textLabel" destination="WIY-eW-IdT" id="wpu-Iw-dDy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

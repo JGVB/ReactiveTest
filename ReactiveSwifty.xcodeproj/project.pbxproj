@@ -13,6 +13,7 @@
 		1DF892891E2EBE810050906E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DF892881E2EBE810050906E /* Assets.xcassets */; };
 		1DF8928C1E2EBE810050906E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF8928A1E2EBE810050906E /* LaunchScreen.storyboard */; };
 		CBD8F6B3D71B2D6694C7D768 /* Pods_ReactiveSwifty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1734B472AA792C5DF952395B /* Pods_ReactiveSwifty.framework */; };
+		D264F94E1E30ECEA0066C205 /* dataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264F94D1E30ECEA0066C205 /* dataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1DF892881E2EBE810050906E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DF8928B1E2EBE810050906E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DF8928D1E2EBE810050906E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264F94D1E30ECEA0066C205 /* dataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dataModel.swift; sourceTree = "<group>"; };
 		F707C3A0F5EC49B8570B5782 /* Pods-ReactiveSwifty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwifty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwifty/Pods-ReactiveSwifty.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				1DF892881E2EBE810050906E /* Assets.xcassets */,
 				1DF8928A1E2EBE810050906E /* LaunchScreen.storyboard */,
 				1DF8928D1E2EBE810050906E /* Info.plist */,
+				D264F94D1E30ECEA0066C205 /* dataModel.swift */,
 			);
 			path = ReactiveSwifty;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			files = (
 				1DF892841E2EBE810050906E /* ViewController.swift in Sources */,
 				1DF892821E2EBE810050906E /* AppDelegate.swift in Sources */,
+				D264F94E1E30ECEA0066C205 /* dataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +380,7 @@
 				1DF892921E2EBE810050906E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
